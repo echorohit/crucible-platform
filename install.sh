@@ -119,13 +119,31 @@ else
       # Starting system
       log "Starting lamp stack for the first time..";
       $REPO_PATH/scripts/start_lamp_first
-
-      # Putting rc.d start files into system directory
-      cp $INSTALL_DIR/rc.d/start_lamp /etc/rc2.d/S80start_lamp
-      # Putting rc.d stop files into system directory
-      cp $INSTALL_DIR/rc.d/stop_lamp /etc/rc0.d/K19stop_lamp
-      
       log "Few or all of the servers started";
+
+      
+      log " ";
+      date_str=`date '+%Y-%m-%d %H:%M:%S'`
+      log "Would you like to install few init scripts in your system.??".
+      log "These scripts help get up your lamp stack when you start your machine or"
+      log "Stop down safely when you shutdown your system. You SHOULD NOT install them if you"
+      log "are already using any other lamp stack otherwise they will conflict with each other."
+      read -p "[$date_str][info] Do you want to install scripts[y/n]:" install_sripts;
+
+      if [ "$install_sripts" = "y" -o "$install_sripts" = "Y" ]; then
+         # Putting rc.d start files into system directory
+         cp $INSTALL_DIR/rc.d/start_lamp /etc/rc2.d/S80start_lamp
+         # Putting rc.d stop files into system directory
+         cp $INSTALL_DIR/rc.d/stop_lamp /etc/rc0.d/K19stop_lamp
+         log "rc.d scripts installed"
+      else
+         log "rc.d scripts installation defferred"
+      fi      
+
+      log "You can always start the server by running"
+      log "$INSTALL_DIR/rc.d/start_lamp"
+      log "And stop the server by running"
+      log "$INSTALL_DIR/rc.d/start_lamp"
       log " "
       log " "
       log "Would you like to share your email with us please."
@@ -133,13 +151,13 @@ else
       log "If you don't want to share, just press enter."
       date_str=`date '+%Y-%m-%d %H:%M:%S'` 
       read -p "[$date_str][info] Enter email:" email;
-      wget http://localhost/install_lamp_dev?email=$email\&ver=$VERSION >/dev/null 2>/dev/null        
+      wget http://pisystems.co.in/install_lamp_dev?email=$email\&ver=$VERSION >/dev/null 2>/dev/null        
       
       log " "
       log " "
       log "Thanks for installing this system, your system is successfully installed"
       log " "
-      log "Created by Tejaswi Sharma <tejaswi.sharma@meritnation.com>"
+      log "Created by Tejaswi Sharma <tej.nri@gmail.com>"
       log "Please feel free to contact me in case of any problem or bug"
       log "Also please do send me your feedback on the above email id"
    else

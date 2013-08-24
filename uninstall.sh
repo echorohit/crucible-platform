@@ -39,7 +39,7 @@ if [ -d "$INSTALL_DIR" ]; then
    rm -rf $INSTALL_DIR
 
    log "Removing rc.d startup scripts"
-   rm /etc/rc2.d/S80start_lamp /etc/rc0.d/K19stop_lamp
+   rm /etc/rc2.d/S80start_lamp /etc/rc0.d/K19stop_lamp >/dev/null 2>/dev/null
 
    log "Removing added users and groups"
    userdel apache; userdel mysql;
@@ -57,7 +57,7 @@ fi
 
 log " "
 log " "
-log "Created by Tejaswi Sharma <tejaswi.sharma@meritnation.com>"
+log "Created by Tejaswi Sharma <tej.nri@gmail.com>"
 log "Please send me your experience at the above address";
 
 
