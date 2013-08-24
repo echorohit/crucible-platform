@@ -1,0 +1,29 @@
+
+Installation
+============
+
+This package is built to install Apache 2.2, Mysql 5.5, Mongodb 2.4.5, Memcache 1.4.15 and PHP 5.3.18 with all the drivers. Also we have included xdebug in php so if you are using IDE like eclips or netbeans you can have the joy of debugging you php applications. Also this package do use apt-get distribution to install some of the dependencies so before firing ./install.sh script please install apt-get. Also please do send me your feedback after using this package at tejaswi.sharma@meritnation.com.
+ 
+Dependency
+==========
+1. apt-get distribution.
+
+Install Steps
+=============
+1. Untar the package by $ tar xvfz </path/to/package> 
+2. cd to extracted folder. $ cd </path/to/extracted/folder>
+3. fire the ./install.sh script. $ ./install.sh (You should be logged in as root.)
+4. Enjoy your freshly installed lamp stack. Hope you will cook some fresh code too.
+
+Uninstall Steps
+===============
+1. cd to extracted folder. $ cd </path/to/extracted/folder>
+2. fire the ./uninstall.sh script. $ ./uninstall.sh (You should be logged in as root.)
+3. Please send me your feedback at tejaswi.sharma@meritnation.com
+
+changelog from version 1.0 to 1.1
+=================================
+1. Added README file.
+2. Added uninstall script.
+3. Added start_lamp_first script.
+4. Changed some echo msgs in start_lamp and stop_lamp scripts

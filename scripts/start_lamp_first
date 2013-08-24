@@ -1,0 +1,15 @@
+#/bin/sh
+
+# This is the place where the setup is installed
+INSTALL_DIR=/usr/local/lamp_dev_64 ;
+
+echo "Starting mysql....";
+$INSTALL_DIR/init.d/mysql.server start >/dev/null
+echo "Starting mongodb....";
+echo "This may take some time when started for the first time. Please don't mind .. :)";
+$INSTALL_DIR/init.d/mongoctl start >/dev/null
+echo "Starting memcached....";
+$INSTALL_DIR/init.d/memcachectl start >/dev/null
+echo "Starting Apache...";
+$INSTALL_DIR/init.d/apachectl start >/dev/null
+echo "Done ..*";

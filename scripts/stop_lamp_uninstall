@@ -1,0 +1,13 @@
+#/bin/sh
+
+# This is the place where the setup is installed
+INSTALL_DIR=/usr/local/lamp_dev_64 ;
+
+echo "Stopping mysql..";
+$INSTALL_DIR/init.d/mysql.server stop >/dev/null
+echo "Stopping mongodb..";
+$INSTALL_DIR/init.d/mongoctl stop >/dev/null
+echo "Stopping memcached..";
+$INSTALL_DIR/init.d/memcachectl stop >/dev/null
+echo "Stopping Apache..";
+$INSTALL_DIR/init.d/apachectl stop >/dev/null
