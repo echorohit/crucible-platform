@@ -2,15 +2,4 @@
 
 # This is the place where the setup is installed
 INSTALL_DIR=/usr/local/lamp_dev_64 ;
-
-echo "stopping lamp stack..";
-
-echo "*******************Stopping mysql***********************";
-$INSTALL_DIR/init.d/mysql.server stop
-echo "*******************Stopping mongodb*********************";
-$INSTALL_DIR/init.d/mongoctl stop
-echo "*******************Stopping memcached*******************";
-$INSTALL_DIR/init.d/memcachectl stop
-echo "*******************Stopping Apache**********************";
-$INSTALL_DIR/init.d/apachectl stop
-echo "Done ..*";
+$INSTALL_DIR/init.d/lampctl stop

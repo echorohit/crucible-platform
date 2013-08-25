@@ -39,7 +39,7 @@ if [ -d "$INSTALL_DIR" ]; then
    rm -rf $INSTALL_DIR
 
    log "Removing rc.d startup scripts"
-   rm /etc/rc2.d/S80start_lamp /etc/rc0.d/K19stop_lamp >/dev/null 2>/dev/null
+   rm /etc/rc2.d/S81start_lamp /etc/rc0.d/K19stop_lamp >/dev/null 2>/dev/null
 
    log "Removing added users and groups"
    userdel apache; userdel mysql;
@@ -49,7 +49,7 @@ if [ -d "$INSTALL_DIR" ]; then
 else
    log "Install dir not present. May be you have not installed the system at all"
    log "Or you have just deleted the install dir."
-   log "In case you have deleted the install dir and wated to stop the remaining services"
+   log "In case you have deleted the install dir and wanted to stop the remaining services"
    log "run: $REPO_PATH/rc.d/stop_lamp";
    log "If you want to install again:"
    log "run: $REPO_PATH/install.sh"

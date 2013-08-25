@@ -2,15 +2,4 @@
 
 # This is the place where the setup is installed
 INSTALL_DIR=/usr/local/lamp_dev_64 ;
-
-echo "Starting lamp stack..";
-
-echo "*******************Starting mysql***********************";
-$INSTALL_DIR/init.d/mysql.server start
-echo "*******************Starting mongodb*********************";
-$INSTALL_DIR/init.d/mongoctl start
-echo "*******************Starting memcached*******************";
-$INSTALL_DIR/init.d/memcachectl start
-echo "*******************Starting Apache**********************";
-$INSTALL_DIR/init.d/apachectl start
-echo "Done ..*";
+$INSTALL_DIR/init.d/lampctl start

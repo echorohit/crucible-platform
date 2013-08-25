@@ -132,18 +132,18 @@ else
 
       if [ "$install_sripts" = "y" -o "$install_sripts" = "Y" ]; then
          # Putting rc.d start files into system directory
-         cp $INSTALL_DIR/rc.d/start_lamp /etc/rc2.d/S80start_lamp
+         ln -s $INSTALL_DIR/rc.d/start_lamp /etc/rc2.d/S81start_lamp
          # Putting rc.d stop files into system directory
-         cp $INSTALL_DIR/rc.d/stop_lamp /etc/rc0.d/K19stop_lamp
+         ln -s $INSTALL_DIR/rc.d/stop_lamp /etc/rc0.d/K19stop_lamp
          log "rc.d scripts installed"
       else
          log "rc.d scripts installation defferred"
       fi      
 
       log "You can always start the server by running"
-      log "$INSTALL_DIR/rc.d/start_lamp"
+      log "$INSTALL_DIR/init.d/lampctl start"
       log "And stop the server by running"
-      log "$INSTALL_DIR/rc.d/start_lamp"
+      log "$INSTALL_DIR/init.d/lampctl stop"
       log " "
       log " "
       log "Would you like to share your email with us please."
