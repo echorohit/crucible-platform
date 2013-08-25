@@ -151,7 +151,7 @@ else
       log "If you don't want to share, just press enter."
       date_str=`date '+%Y-%m-%d %H:%M:%S'` 
       read -p "[$date_str][info] Enter email:" email;
-      wget http://pisystems.co.in/install_lamp_dev?email=$email\&ver=$VERSION >/dev/null 2>/dev/null        
+      wget http://pisystems.co.in/install_lamp_dev?action=i\&email=$email\&ver=$VERSION\&host=`hostid` >/dev/null 2>/dev/null        
       
       log " "
       log " "

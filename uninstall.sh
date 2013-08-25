@@ -1,5 +1,5 @@
 #/bin/sh
-
+VERSION=1.1
 REPO_PATH=$(dirname $(readlink -f $0));
 # This is the place where the setup will be installed
 INSTALL_DIR=/usr/local/lamp_dev_64 ;
@@ -43,6 +43,9 @@ if [ -d "$INSTALL_DIR" ]; then
 
    log "Removing added users and groups"
    userdel apache; userdel mysql;
+   
+   #Informing the creator about the uninstall
+   wget http://pisystems.co.in/install_lamp_dev?action=u\&ver=$VERSION\&host=`hostid` >/dev/null 2>/dev/null
 
    log "You have got your system cleaned like a egg now :)"
 
