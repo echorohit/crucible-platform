@@ -1,0 +1,56 @@
+#/bin/sh
+
+# This is the place where the setup is installed
+INSTALL_DIR=/usr/local/lamp_dev_64 ;
+
+if [ "$1" = 'start' ]; then
+  echo "Starting cp server";
+
+  echo "Starting mysql..";
+  $INSTALL_DIR/init.d/mysql.server start >/dev/null
+  echo "Starting mongodb..";
+  $INSTALL_DIR/init.d/mongoctl start >/dev/null
+  echo "Starting memcached..";
+  $INSTALL_DIR/init.d/memcachectl start >/dev/null
+  echo "Starting Apache..";
+  $INSTALL_DIR/init.d/apachectl start >/dev/null
+  echo "Done ..*";
+
+elif [ "$1" = 'stop' ]; then
+  echo "Stoping cp server";
+  
+  echo "Stopping apache"
+  $INSTALL_DIR/init.d/apachectl stop >/dev/null
+
+  echo "Stoping memcached..";
+  $INSTALL_DIR/init.d/memcachectl stop >/dev/null
+
+  echo "Stoping mongodb..";
+  $INSTALL_DIR/init.d/mongoctl stop >/dev/null
+
+  echo "Stoping mysql..";
+  $INSTALL_DIR/init.d/mysql.server stop >/dev/null
+  echo "Done ..*";
+
+elif [ "$1" = 'restart' ]; then
+  echo "Restarting cp server";
+
+  echo "Restarting apache..";
+  $INSTALL_DIR/init.d/apachectl restart >/dev/null
+
+  echo "Restarting memcached..";
+  $INSTALL_DIR/init.d/memcachectl stop >/dev/null
+  $INSTALL_DIR/init.d/memcachectl start >/dev/null
+
+  echo "Restarting mongodb..";
+  $INSTALL_DIR/init.d/mongoctl stop >/dev/null
+  $INSTALL_DIR/init.d/mongoctl start >/dev/null
+
+  echo "Restarting mysql..";
+  $INSTALL_DIR/init.d/mysql.server restart >/dev/null
+  echo "Done ..*";
+else
+  echo "invalid or no argument";
+  echo "Usage: memcachectl {start|stop|restart}";
+  exit 1;
+fi
