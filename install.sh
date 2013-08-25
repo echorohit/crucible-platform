@@ -43,6 +43,8 @@ else
 
       log "Moving configurations folder first"
       cp -r etc "$INSTALL_DIR/etc"; 
+      log "And the scripts folder.."
+      cp -r scripts "$INSTALL_DIR/scripts";
 
       log "Installing all the dependencies";
       log "This step make use of internet connection and it will take few minutes :)";

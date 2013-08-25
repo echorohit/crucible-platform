@@ -3,6 +3,18 @@
 # This is the place where the setup is installed
 INSTALL_DIR=/usr/local/lamp_dev_64 ;
 
+server_check () {
+  PORT=$2;
+  LITERAL=$1;
+  printf "$LITERAL .. ";
+  $INSTALL_DIR/scripts/up_test $2;
+  if [ "$?" = "0" ]; then
+    printf "Running\n";
+  else
+    printf "Not Running\n";
+  fi
+}
+
 if [ "$1" = 'start' ]; then
   echo "Starting cp server";
 
@@ -49,8 +61,19 @@ elif [ "$1" = 'restart' ]; then
   echo "Restarting mysql..";
   $INSTALL_DIR/init.d/mysql.server restart >/dev/null
   echo "Done ..*";
+elif [ "$1" = 'info' ]; then
+  echo "Crucible platform server version 1.1"
+  echo "Created by Tejaswi Sharma <tej.nri@gmail.com>"
+  echo "";
+  echo "Components included in this version are:"
+  
+  server_check "Apache 2.2:" "80";
+  server_check "Mongodb 2.4.5:" "27017"
+  server_check "Memcached 1.4.15:" "11211"
+  server_check "Mysql 5.5.28:" "3306"
+  echo "PHP 5.3.18: Installed(with xdebug)"  
 else
   echo "invalid or no argument";
-  echo "Usage: memcachectl {start|stop|restart}";
+  echo "Usage: memcachectl {start|stop|restart|info}";
   exit 1;
 fi

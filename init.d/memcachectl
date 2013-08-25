@@ -6,7 +6,7 @@ INSTALL_DIR=/usr/local/lamp_dev_64 ;
 
 if [ "$1" = 'start' ]; then
   echo "Starting Memcache .. *";
-  $INSTALL_DIR/memcache/bin/memcached -uroot -p11211 -l 127.0.0.1 -d -m 64
+  $INSTALL_DIR/memcache/bin/memcached -uroot -p11211 -l 127.0.0.1 -d -m 64 -v
   
 elif [ "$1" = 'stop' ]; then
   echo "Stopping Memcache .. *";
