@@ -62,5 +62,5 @@ log " "
 log " "
 log "Created by Tejaswi Sharma <tej.nri@gmail.com>"
 log "Please send me your experience at the above address";
-
+log "File your bug here if you want: http://code.google.com/p/crucible-platform/issues/list"
 

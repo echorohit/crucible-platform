@@ -168,8 +168,10 @@ else
       log "Created by Tejaswi Sharma <tej.nri@gmail.com>"
       log "Please feel free to contact me in case of any problem or bug"
       log "Also please do send me your feedback on the above email id"
+      log "File your bug here if you want: http://code.google.com/p/crucible-platform/issues/list"
    else
 	log "Cannot create install directory!" "error"
+        log "File your bug here if you want: http://code.google.com/p/crucible-platform/issues/list"
 	exit 1
    fi
 fi
