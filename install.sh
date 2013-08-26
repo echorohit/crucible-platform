@@ -103,6 +103,12 @@ else
       log "Changing ownership of php installation"
       chown -R root.root "$INSTALL_DIR/phpmyadmin"
 
+      # Installing jdk 1.7
+      log "Installing Jdk .."
+      cp -r jdk "$INSTALL_DIR/jdk";
+      log "Changing ownership of jdk installation"
+      chown -R root.root "$INSTALL_DIR/jdk"
+
       # Installing all init scripts
       log "Copying init scripts .."
       cp -r init.d "$INSTALL_DIR/init.d";
