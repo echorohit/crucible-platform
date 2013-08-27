@@ -41,10 +41,8 @@ if [ -d "$INSTALL_DIR" ]; then
    log "Removing rc.d startup scripts"
    rm /etc/rc2.d/S81start_lamp /etc/rc0.d/K19stop_lamp >/dev/null 2>/dev/null
 
-   #@TODO fix: "http://code.google.com/p/crucible-platform/issues/detail?id=1"
-   #This will be finally fixed by changing the names of runlevel users
-   #log "Removing added users and groups"
-   #userdel apache; userdel mysql;   
+   log "Removing added users and groups"
+   userdel cp-apache; userdel cp-mysql;   
  
    #Informing the creator about the uninstall
    wget http://pisystems.co.in/install_lamp_dev?action=u\&ver=$VERSION\&host=`hostid` >/dev/null 2>/dev/null

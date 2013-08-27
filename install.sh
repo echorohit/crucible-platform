@@ -55,12 +55,12 @@ else
       log "Installing Mysql .."
       cp -r mysql "$INSTALL_DIR/mysql";
       log "Adding mysql user and group"
-      groupadd mysql; useradd -g mysql mysql;
+      groupadd cp-mysql; useradd -g cp-mysql cp-mysql;
       log "Changing ownership of mysql installation";
-      chown -R root "$INSTALL_DIR/mysql" ; chgrp -R mysql "$INSTALL_DIR/mysql";chown -R mysql "$INSTALL_DIR/mysql/data"
+      chown -R root "$INSTALL_DIR/mysql" ; chgrp -R cp-mysql "$INSTALL_DIR/mysql";chown -R cp-mysql "$INSTALL_DIR/mysql/data"
       log "Putting system data into mysql"
       cd $INSTALL_DIR/mysql;
-      $INSTALL_DIR/mysql/scripts/mysql_install_db --user=mysql >/dev/null
+      $INSTALL_DIR/mysql/scripts/mysql_install_db --user=cp-mysql >/dev/null
       cd $REPO_PATH
       #@TODO to put all the executables into path
 
@@ -69,9 +69,9 @@ else
       log "Installing Apache .."
       cp -r apache "$INSTALL_DIR/apache";
       log "Adding apache user and group"
-      groupadd apache; useradd -g apache apache; 
+      groupadd cp-apache; useradd -g cp-apache cp-apache; 
       log "Changing ownership of apache installation"
-      chown -R root "$INSTALL_DIR/apache" ; chgrp -R apache "$INSTALL_DIR/apache";chown -R apache "$INSTALL_DIR/apache/logs"
+      chown -R root "$INSTALL_DIR/apache" ; chgrp -R cp-apache "$INSTALL_DIR/apache";chown -R cp-apache "$INSTALL_DIR/apache/logs"
       #@TODO to put all the executable into path 
       
       # Installing mongodb
