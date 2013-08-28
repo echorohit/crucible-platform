@@ -29,7 +29,11 @@ if [ `whoami` != "root" ]; then
    exit 1
 fi
 
-
+machine=`uname -p`
+if [ $machine != "x86_64" ]; then
+   log "This system is not 64 bit. Cannot install :("
+   exit 1
+fi
 # Check to see if the install dir already exists
 if [ -d "$INSTALL_DIR" ]; then
    log "Install dir already exists" "error"; 
