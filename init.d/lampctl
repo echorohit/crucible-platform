@@ -71,7 +71,8 @@ elif [ "$1" = 'info' ]; then
   server_check "Mongodb 2.4.5:" "27017"
   server_check "Memcached 1.4.15:" "11211"
   server_check "Mysql 5.5.28:" "3306"
-  echo "PHP 5.3.18: Installed(with xdebug)"  
+  echo "PHP 5.3.18: Installed(with xdebug)" 
+  echo "Jdk 1.7.25: Installed" 
 else
   echo "invalid or no argument";
   echo "Usage: memcachectl {start|stop|restart|info}";
