@@ -53,7 +53,7 @@ else
       log "Installing all the dependencies";
       log "This step make use of internet connection and it will take few minutes :)";
       apt-get update >/dev/null 2>/dev/null;
-      yes | apt-get install bison libncurses5-dev libtool g++ gcc make cmake libssl-dev libexpat1-dev zlib1g-dev libpng-dev libjpeg-dev libxml2-dev libcurl4-openssl-dev libmcrypt-dev libmhash-dev libxslt-dev libneon27-gnutls-dev >/dev/null  2>/dev/null
+      yes | apt-get install bison libncurses5-dev libtool g++ gcc make cmake libssl-dev libexpat1-dev zlib1g-dev libpng-dev libjpeg-dev libxml2-dev libcurl4-openssl-dev libmcrypt-dev libmhash-dev libxslt-dev libneon27-gnutls-dev libmemcached-dev>/dev/null  2>/dev/null
 
       # Installing Mysql
       log "Installing Mysql .."
