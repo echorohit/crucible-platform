@@ -1,5 +1,0 @@
-#/bin/sh
-
-# This is the place where the setup is installed
-INSTALL_DIR=/usr/local/lamp_dev_64 ;
-$INSTALL_DIR/init.d/lampctl stop
