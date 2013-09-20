@@ -1,0 +1,21 @@
+#/bin/sh
+REPO_PATH=$(dirname $(readlink -f $0));
+# This is the place where the setup will be installed
+INSTALL_DIR=/usr/local/cruciform/lib ;
+
+
+if [ "$1" = 'start' ]; then
+  echo "Starting Memcache .. *";
+  $INSTALL_DIR/memcached/bin/memcached -uroot -p11211 -l 127.0.0.1 -d -m 64 -v
+  
+elif [ "$1" = 'stop' ]; then
+  echo "Stopping Memcache .. *";
+  killall memcached; 
+else  
+  echo "invalid or no argument";
+  echo "Usage: memcachectl {start|stop}";
+  exit 1;
+fi
+  
+
+
