@@ -1,0 +1,7 @@
+#/bin/sh
+
+for file in *;
+        do rm /usr/bin/$file ;
+        echo "Deleted file: /usr/bin/$file";
+        #ln -s /usr/local/apache/bin/$file /usr/bin/$file;
+done ;

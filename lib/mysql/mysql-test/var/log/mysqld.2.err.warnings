@@ -1,0 +1,4 @@
+Suspicious lines from /usr/local/cruciform/lib/mysql/mysql-test/var/log/mysqld.2.err
+130914 14:39:34 [Warning] /usr/local/cruciform/lib/mysql/bin/mysqld: unknown variable 'loose-debug-sync-timeout=300'
+130914 14:39:35 [ERROR] Error reading packet from server: Lost connection to MySQL server during query ( server_errno=2013)
+.... repeated 2 times: [ERROR] Error reading packet from server: Lost connection to MySQL server during query ( server_errno=2013)

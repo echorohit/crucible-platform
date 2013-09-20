@@ -1,0 +1,72 @@
+#!/usr/local/cruciform/lib/php/bin/php
+<?php
+define('ENV_VAR_FILE' , '/etc/environment');
+
+if($argc < 3){
+    echo "Error: Both the variable name and the variable value is required\n";
+    exit(1);
+}
+
+function normalized_path($path_arr){
+    $return = $path_arr;
+    foreach($path_arr as $key => $value){
+        $path = realpath($value);
+        if(!$path){
+            throw new Exception("Path $value is not correct");
+        }else{
+            $return[$key] = realpath($value);
+        }
+        
+    }
+    return $return;
+}
+
+
+$var_name = trim($argv[1]);
+$var_value= trim($argv[2]);
+
+$file_content = trim(file_get_contents(ENV_VAR_FILE)); 
+$entry_rows_arr= explode("\n",$file_content);
+
+if(count($entry_rows_arr) != 0 && $file_content){
+    foreach($entry_rows_arr as $key => $entry_row){
+        $parts = explode("=", $entry_row);
+        if(count($parts) === 2){
+            
+            if(trim($parts[0]) == $var_name){
+                #First let's remove '"'
+                $value_part     = str_replace("\"", "" , $parts[1]);
+                $value_part_arr = normalized_path(explode(":", $value_part));
+                $supplied_part_arr = normalized_path(explode(":", $var_value));
+                
+                foreach($supplied_part_arr as $needle => $supplied_value){
+                    if(($pos = array_search($supplied_value , $value_part_arr)) !== false){
+                        unset($value_part_arr[$pos]);
+                    }
+                }
+                
+                #Now check if the value exists as given
+                if(count($value_part_arr) > 0){
+                    $entry_rows_arr[$key] = $var_name . "=" . implode(":",$value_part_arr);
+                }else{
+                    unset($entry_rows_arr[$key]);
+                }
+                break;
+            }            
+        }else{
+            echo "Something wrong in line $entry_row\n";
+            exit(1);
+        }
+    } 
+    
+    
+    $file_txt = implode("\n" , $entry_rows_arr);
+    file_put_contents(ENV_VAR_FILE,$file_txt);
+    echo $file_txt;
+    echo "\n";   
+}else{
+    echo "Nothing to delete, file empty\n";
+}
+
+
+

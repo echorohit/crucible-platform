@@ -1,0 +1,5 @@
+#/bin/sh
+PORT=$1;
+
+lsof -i :$PORT | grep 'LISTEN'>/dev/null 2>/dev/null;
+exit $?

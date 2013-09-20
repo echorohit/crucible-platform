@@ -1,0 +1,7 @@
+#/bin/sh
+
+# This is the place where the setup is installed
+INSTALL_DIR=/usr/local/cruciform ;
+
+# Start lamp
+$INSTALL_DIR/init.d/lampctl start

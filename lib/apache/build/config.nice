@@ -1,0 +1,24 @@
+#! /bin/sh
+#
+# Created by configure
+
+"./configure" \
+"--enable-mime-magic" \
+"--enable-expires" \
+"--enable-headers" \
+"--enable-ssl" \
+"--enable-http" \
+"--enable-info" \
+"--enable-dir" \
+"--enable-so" \
+"--prefix=/usr/local/cruciform/lib/apache" \
+"--sysconfdir=/etc/cruciform/" \
+"--enable-rewrite" \
+"--enable-proxy" \
+"--enable-proxy-http" \
+"--enable-deflate" \
+"--with-included-apr" \
+"--enable-dav" \
+"--enable-dav-fs" \
+"--enable-dav-lock" \
+"$@"

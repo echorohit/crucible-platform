@@ -1,0 +1,27 @@
+/usr/local/cruciform/lib/mysql/bin/mysqld --no-defaults --bootstrap --basedir=/usr/local/cruciform/lib/mysql --datadir=/usr/local/cruciform/lib/mysql/mysql-test/var/install.db --loose-skip-falcon --loose-skip-ndbcluster --tmpdir=/usr/local/cruciform/lib/mysql/mysql-test/var/tmp/ --core-file --lc-messages-dir=/usr/local/cruciform/lib/mysql/share/ --character-sets-dir=/usr/local/cruciform/lib/mysql/share/charsets
+130914 17:08:57 InnoDB: The InnoDB memory heap is disabled
+130914 17:08:57 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+130914 17:08:57 InnoDB: Compressed tables use zlib 1.2.3.4
+130914 17:08:57 InnoDB: Initializing buffer pool, size = 128.0M
+130914 17:08:57 InnoDB: Completed initialization of buffer pool
+InnoDB: The first specified data file ./ibdata1 did not exist:
+InnoDB: a new database to be created!
+130914 17:08:57  InnoDB: Setting file ./ibdata1 size to 10 MB
+InnoDB: Database physically writes the file full: wait...
+130914 17:08:58  InnoDB: Log file ./ib_logfile0 did not exist: new to be created
+InnoDB: Setting log file ./ib_logfile0 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+130914 17:08:58  InnoDB: Log file ./ib_logfile1 did not exist: new to be created
+InnoDB: Setting log file ./ib_logfile1 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+InnoDB: Doublewrite buffer not found: creating new
+InnoDB: Doublewrite buffer created
+InnoDB: 127 rollback segment(s) active.
+InnoDB: Creating foreign key constraint system tables
+InnoDB: Foreign key constraint system tables created
+130914 17:08:59  InnoDB: Waiting for the background threads to start
+130914 17:09:00 InnoDB: 1.1.8 started; log sequence number 0
+130914 17:09:00 [Warning] /usr/local/cruciform/lib/mysql/bin/mysqld: unknown option '--loose-skip-falcon'
+130914 17:09:00 [Warning] /usr/local/cruciform/lib/mysql/bin/mysqld: unknown option '--loose-skip-ndbcluster'
+130914 17:09:02  InnoDB: Starting shutdown...
+130914 17:09:03  InnoDB: Shutdown completed; log sequence number 1595675

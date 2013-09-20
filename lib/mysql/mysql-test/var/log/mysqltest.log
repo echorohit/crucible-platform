@@ -1,0 +1,45 @@
+CURRENT_TEST: federated.federated
+The test '/usr/local/cruciform/lib/mysql/mysql-test/suite/federated/federated.test' is not supported by this installation
+Detected in file ./suite/federated/include/have_federated_db.inc at line 5
+included from ./suite/federated/include/have_federated_db.inc at line 5:
+included from ./suite/federated/include/federated.inc at line 3:
+reason: Need federated engine
+CURRENT_TEST: federated.federated_archive
+The test '/usr/local/cruciform/lib/mysql/mysql-test/suite/federated/federated_archive.test' is not supported by this installation
+Detected in file ./include/have_archive.inc at line 3
+included from ./include/have_archive.inc at line 3:
+reason: Test requires: 'true'
+CURRENT_TEST: federated.federated_bug_13118
+The test '/usr/local/cruciform/lib/mysql/mysql-test/suite/federated/federated_bug_13118.test' is not supported by this installation
+Detected in file ./suite/federated/include/have_federated_db.inc at line 5
+included from ./suite/federated/include/have_federated_db.inc at line 5:
+included from ./suite/federated/include/federated.inc at line 3:
+reason: Need federated engine
+CURRENT_TEST: federated.federated_bug_25714
+The test '/usr/local/cruciform/lib/mysql/mysql-test/suite/federated/federated_bug_25714.test' is not supported by this installation
+Detected in file /usr/local/cruciform/lib/mysql/mysql-test/suite/federated/federated_bug_25714.test at line 4
+reason: Need bug25714 test program
+CURRENT_TEST: federated.federated_bug_35333
+The test '/usr/local/cruciform/lib/mysql/mysql-test/suite/federated/federated_bug_35333.test' is not supported by this installation
+Detected in file ./suite/federated/include/have_federated_db.inc at line 5
+included from ./suite/federated/include/have_federated_db.inc at line 5:
+included from ./suite/federated/include/federated.inc at line 3:
+reason: Need federated engine
+CURRENT_TEST: federated.federated_server
+The test '/usr/local/cruciform/lib/mysql/mysql-test/suite/federated/federated_server.test' is not supported by this installation
+Detected in file ./suite/federated/include/have_federated_db.inc at line 5
+included from ./suite/federated/include/have_federated_db.inc at line 5:
+included from ./suite/federated/include/federated.inc at line 3:
+reason: Need federated engine
+CURRENT_TEST: federated.federated_plugin
+CURRENT_TEST: federated.federated_innodb
+The test '/usr/local/cruciform/lib/mysql/mysql-test/suite/federated/federated_innodb.test' is not supported by this installation
+Detected in file ./suite/federated/include/have_federated_db.inc at line 5
+included from ./suite/federated/include/have_federated_db.inc at line 5:
+included from ./suite/federated/include/federated.inc at line 3:
+reason: Need federated engine
+CURRENT_TEST: perfschema.cnf_option
+CURRENT_TEST: rpl.rpl_plugin_load
+CURRENT_TEST: rpl.rpl_plugin_load
+CURRENT_TEST: rpl.rpl_plugin_load
+CURRENT_TEST: rpl.rpl_semi_sync_event

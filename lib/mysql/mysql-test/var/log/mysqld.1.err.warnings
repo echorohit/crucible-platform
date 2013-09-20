@@ -1,0 +1,4 @@
+Suspicious lines from /usr/local/cruciform/lib/mysql/mysql-test/var/log/mysqld.1.err
+130914 14:39:34 [Warning] /usr/local/cruciform/lib/mysql/bin/mysqld: unknown variable 'loose-debug-sync-timeout=300'
+130914 14:39:37 [ERROR] Read semi-sync reply network error:  (errno: 1158)
+130914 14:39:47 [Warning] Timeout waiting for reply of binlog (file: master-bin.000001, pos: 3025), semi-sync up to file master-bin.000001, position 2807.

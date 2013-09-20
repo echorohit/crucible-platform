@@ -1,0 +1,7 @@
+[Wed Sep 18 12:47:18 2013] [error] [client 127.0.0.1] client denied by server configuration: /usr/local/cruciform/lib/apache/docs
+[Wed Sep 18 12:47:19 2013] [error] [client 127.0.0.1] client denied by server configuration: /usr/local/cruciform/lib/apache/docs
+[Wed Sep 18 12:47:19 2013] [error] [client 127.0.0.1] client denied by server configuration: /usr/local/cruciform/lib/apache/docs
+[Wed Sep 18 12:47:24 2013] [error] [client 127.0.0.1] client denied by server configuration: /usr/local/cruciform/lib/apache/docs
+[Wed Sep 18 12:48:13 2013] [error] [client 127.0.0.1] client denied by server configuration: /usr/local/cruciform/lib/apache/docs
+[Wed Sep 18 12:48:13 2013] [error] [client 127.0.0.1] client denied by server configuration: /usr/local/cruciform/lib/apache/docs
+[Wed Sep 18 12:48:13 2013] [error] [client 127.0.0.1] client denied by server configuration: /usr/local/cruciform/lib/apache/docs

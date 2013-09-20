@@ -1,0 +1,492 @@
+[Wed Sep 18 12:31:08 2013] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Sep 18 12:31:08 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 configured -- resuming normal operations
+[Wed Sep 18 12:33:21 2013] [notice] SIGHUP received.  Attempting to restart
+[Wed Sep 18 12:33:21 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 configured -- resuming normal operations
+[Wed Sep 18 12:33:27 2013] [notice] SIGHUP received.  Attempting to restart
+[Wed Sep 18 12:33:27 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 configured -- resuming normal operations
+[Wed Sep 18 12:44:58 2013] [notice] SIGHUP received.  Attempting to restart
+[Wed Sep 18 12:44:58 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 configured -- resuming normal operations
+[Wed Sep 18 12:44:59 2013] [notice] SIGHUP received.  Attempting to restart
+[Wed Sep 18 12:44:59 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 configured -- resuming normal operations
+[Wed Sep 18 12:47:05 2013] [notice] SIGHUP received.  Attempting to restart
+Warning: DocumentRoot [/usr/local/cruciform/lib/apache/docs/dummy-host.example.com] does not exist
+Warning: DocumentRoot [/usr/local/cruciform/lib/apache/docs/dummy-host2.example.com] does not exist
+[Wed Sep 18 12:47:05 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 configured -- resuming normal operations
+[Wed Sep 18 12:48:44 2013] [notice] SIGHUP received.  Attempting to restart
+Warning: DocumentRoot [/usr/local/cruciform/lib/apache/docs/dummy-host.example.com] does not exist
+Warning: DocumentRoot [/usr/local/cruciform/lib/apache/docs/dummy-host2.example.com] does not exist
+[Wed Sep 18 12:48:45 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 configured -- resuming normal operations
+[Wed Sep 18 13:39:37 2013] [notice] SIGHUP received.  Attempting to restart
+[Wed Sep 18 13:39:37 2013] [warn] NameVirtualHost *:80 has no VirtualHosts
+[Wed Sep 18 13:39:37 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 configured -- resuming normal operations
+[Wed Sep 18 13:39:38 2013] [notice] SIGHUP received.  Attempting to restart
+[Wed Sep 18 13:39:38 2013] [warn] NameVirtualHost *:80 has no VirtualHosts
+[Wed Sep 18 13:39:38 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 configured -- resuming normal operations
+[Wed Sep 18 13:45:26 2013] [notice] SIGHUP received.  Attempting to restart
+[Wed Sep 18 13:45:26 2013] [warn] NameVirtualHost *:80 has no VirtualHosts
+[Wed Sep 18 13:45:26 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 configured -- resuming normal operations
+[Wed Sep 18 13:45:48 2013] [notice] SIGHUP received.  Attempting to restart
+[Wed Sep 18 13:45:48 2013] [warn] NameVirtualHost *:80 has no VirtualHosts
+[Wed Sep 18 13:45:48 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 configured -- resuming normal operations
+[Wed Sep 18 13:45:49 2013] [notice] SIGHUP received.  Attempting to restart
+[Wed Sep 18 13:45:49 2013] [warn] NameVirtualHost *:80 has no VirtualHosts
+[Wed Sep 18 13:45:49 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 configured -- resuming normal operations
+[Wed Sep 18 13:45:50 2013] [notice] SIGHUP received.  Attempting to restart
+[Wed Sep 18 13:45:50 2013] [warn] NameVirtualHost *:80 has no VirtualHosts
+[Wed Sep 18 13:45:50 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 configured -- resuming normal operations
+[Wed Sep 18 13:46:51 2013] [notice] SIGHUP received.  Attempting to restart
+[Wed Sep 18 13:46:51 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 configured -- resuming normal operations
+[Wed Sep 18 13:48:16 2013] [notice] SIGHUP received.  Attempting to restart
+[Wed Sep 18 13:48:16 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 configured -- resuming normal operations
+[Wed Sep 18 18:20:12 2013] [notice] SIGHUP received.  Attempting to restart
+[Wed Sep 18 18:20:12 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 configured -- resuming normal operations
+[Wed Sep 18 19:28:10 2013] [notice] SIGHUP received.  Attempting to restart
+[Wed Sep 18 19:28:11 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 configured -- resuming normal operations
+[Wed Sep 18 19:28:17 2013] [notice] SIGHUP received.  Attempting to restart
+[Wed Sep 18 19:28:17 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 PHP/5.5.3 configured -- resuming normal operations
+[Wed Sep 18 19:28:18 2013] [notice] SIGHUP received.  Attempting to restart
+[Wed Sep 18 19:28:18 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 PHP/5.5.3 configured -- resuming normal operations
+[Wed Sep 18 19:28:19 2013] [notice] SIGHUP received.  Attempting to restart
+[Wed Sep 18 19:28:19 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 PHP/5.5.3 configured -- resuming normal operations
+[Wed Sep 18 19:34:12 2013] [notice] SIGHUP received.  Attempting to restart
+[Wed Sep 18 19:34:12 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 PHP/5.5.3 configured -- resuming normal operations
+[Wed Sep 18 19:34:16 2013] [notice] SIGHUP received.  Attempting to restart
+[Wed Sep 18 19:34:16 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 PHP/5.5.3 configured -- resuming normal operations
+[Wed Sep 18 19:34:18 2013] [notice] SIGHUP received.  Attempting to restart
+[Wed Sep 18 19:34:18 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 PHP/5.5.3 configured -- resuming normal operations
+[Wed Sep 18 20:30:53 2013] [notice] SIGHUP received.  Attempting to restart
+[Wed Sep 18 20:30:53 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 PHP/5.5.3 configured -- resuming normal operations
+[Wed Sep 18 20:30:54 2013] [notice] SIGHUP received.  Attempting to restart
+[Wed Sep 18 20:30:54 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 PHP/5.5.3 configured -- resuming normal operations
+[Wed Sep 18 20:31:04 2013] [notice] caught SIGTERM, shutting down
+[Wed Sep 18 20:31:07 2013] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Sep 18 20:31:07 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 PHP/5.5.3 configured -- resuming normal operations
+[Wed Sep 18 20:34:02 2013] [notice] caught SIGTERM, shutting down
+[Wed Sep 18 20:57:41 2013] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Sep 18 20:57:41 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 PHP/5.5.3 configured -- resuming normal operations
+[Wed Sep 18 20:57:43 2013] [notice] SIGHUP received.  Attempting to restart
+[Wed Sep 18 20:57:43 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 PHP/5.5.3 configured -- resuming normal operations
+[Wed Sep 18 20:57:44 2013] [notice] SIGHUP received.  Attempting to restart
+[Wed Sep 18 20:57:44 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 PHP/5.5.3 configured -- resuming normal operations
+[Wed Sep 18 20:57:44 2013] [notice] SIGHUP received.  Attempting to restart
+[Wed Sep 18 20:57:44 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 PHP/5.5.3 configured -- resuming normal operations
+[Wed Sep 18 20:57:45 2013] [notice] SIGHUP received.  Attempting to restart
+[Wed Sep 18 20:57:45 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 PHP/5.5.3 configured -- resuming normal operations
+[Wed Sep 18 20:57:45 2013] [notice] SIGHUP received.  Attempting to restart
+[Wed Sep 18 20:57:45 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 PHP/5.5.3 configured -- resuming normal operations
+[Wed Sep 18 20:57:46 2013] [notice] SIGHUP received.  Attempting to restart
+[Wed Sep 18 20:57:46 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 PHP/5.5.3 configured -- resuming normal operations
+[Wed Sep 18 20:57:46 2013] [notice] SIGHUP received.  Attempting to restart
+[Wed Sep 18 20:57:46 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 PHP/5.5.3 configured -- resuming normal operations
+[Wed Sep 18 20:57:46 2013] [notice] SIGHUP received.  Attempting to restart
+[Wed Sep 18 20:57:46 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 PHP/5.5.3 configured -- resuming normal operations
+[Wed Sep 18 20:57:48 2013] [notice] SIGHUP received.  Attempting to restart
+[Wed Sep 18 20:57:48 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 PHP/5.5.3 configured -- resuming normal operations
+[Wed Sep 18 21:24:35 2013] [notice] caught SIGTERM, shutting down
+[Wed Sep 18 21:24:56 2013] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Sep 18 21:24:56 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 PHP/5.5.3 configured -- resuming normal operations
+[Wed Sep 18 21:25:12 2013] [notice] caught SIGTERM, shutting down
+[Wed Sep 18 21:26:06 2013] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Sep 18 21:26:06 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 PHP/5.5.3 configured -- resuming normal operations
+[Wed Sep 18 21:26:47 2013] [notice] caught SIGTERM, shutting down
+[Wed Sep 18 21:26:58 2013] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Sep 18 21:26:58 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 PHP/5.5.3 configured -- resuming normal operations
+[Wed Sep 18 21:28:05 2013] [notice] caught SIGTERM, shutting down
+[Thu Sep 19 00:05:07 2013] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Sep 19 00:05:07 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 PHP/5.5.3 configured -- resuming normal operations
+[Thu Sep 19 00:06:18 2013] [notice] caught SIGTERM, shutting down
+[Thu Sep 19 00:11:57 2013] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Sep 19 00:11:58 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 PHP/5.5.3 configured -- resuming normal operations
+[Thu Sep 19 00:25:15 2013] [notice] caught SIGTERM, shutting down
+[Thu Sep 19 00:25:57 2013] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Sep 19 00:25:58 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 PHP/5.5.3 configured -- resuming normal operations
+[Thu Sep 19 00:32:24 2013] [notice] caught SIGTERM, shutting down
+[Thu Sep 19 00:33:03 2013] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Sep 19 00:33:03 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 PHP/5.5.3 configured -- resuming normal operations
+[Thu Sep 19 00:34:21 2013] [notice] caught SIGTERM, shutting down
+[Thu Sep 19 00:34:58 2013] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Sep 19 00:34:59 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 PHP/5.5.3 configured -- resuming normal operations
+[Thu Sep 19 00:36:43 2013] [notice] caught SIGTERM, shutting down
+[Thu Sep 19 12:15:40 2013] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Sep 19 12:15:41 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 PHP/5.5.3 configured -- resuming normal operations
+[Thu Sep 19 14:12:56 2013] [notice] caught SIGTERM, shutting down
+[Thu Sep 19 14:13:39 2013] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Sep 19 14:13:39 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 PHP/5.5.3 configured -- resuming normal operations
+[Thu Sep 19 14:22:32 2013] [notice] caught SIGTERM, shutting down
+[Thu Sep 19 14:23:07 2013] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Sep 19 14:23:08 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 PHP/5.5.3 configured -- resuming normal operations
+[Thu Sep 19 18:32:39 2013] [notice] SIGHUP received.  Attempting to restart
+[Thu Sep 19 18:32:39 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 PHP/5.5.3 configured -- resuming normal operations
+[Thu Sep 19 18:36:55 2013] [notice] SIGHUP received.  Attempting to restart
+[Thu Sep 19 18:36:55 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 PHP/5.5.3 configured -- resuming normal operations
+[Thu Sep 19 18:41:43 2013] [notice] SIGHUP received.  Attempting to restart
+[Thu Sep 19 18:41:43 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 PHP/5.5.3 configured -- resuming normal operations
+[Thu Sep 19 18:44:39 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/favicon.ico
+[Thu Sep 19 18:45:09 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/favicon.ico
+[Thu Sep 19 18:45:30 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/favicon.ico
+[Thu Sep 19 18:45:50 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/favicon.ico
+[Thu Sep 19 18:45:51 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/favicon.ico
+[Thu Sep 19 18:45:51 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/favicon.ico
+[Thu Sep 19 18:45:52 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/favicon.ico
+[Thu Sep 19 18:46:12 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/favicon.ico
+[Thu Sep 19 18:46:13 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/favicon.ico
+[Thu Sep 19 18:47:22 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/favicon.ico
+[Thu Sep 19 18:47:24 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/favicon.ico
+[Thu Sep 19 18:52:49 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 18:53:01 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 18:53:16 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 18:53:31 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 18:53:46 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 18:53:46 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 18:54:01 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 18:54:16 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 18:54:31 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 18:54:46 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 18:54:46 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 18:57:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 18:57:50 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 18:58:05 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 18:58:20 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 18:58:35 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 18:58:35 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 18:58:50 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 18:59:05 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 18:59:20 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 18:59:35 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 18:59:35 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 18:59:50 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:00:05 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:00:21 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:00:35 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:00:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:00:51 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:01:06 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:01:21 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:01:35 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:01:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:01:51 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:02:06 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:02:21 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:02:35 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:02:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:02:51 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:03:06 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:03:21 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:03:35 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:03:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:03:51 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:04:06 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:04:21 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:04:35 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:04:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:04:51 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:05:06 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:05:21 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:05:35 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:05:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:05:51 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:06:06 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:06:21 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:06:35 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:06:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:06:51 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:07:06 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:07:21 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:07:35 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:07:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:07:51 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:08:06 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:08:21 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:08:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:08:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:08:51 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:09:06 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:09:21 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:09:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:09:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:09:51 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:10:06 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:10:21 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:10:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:10:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:10:51 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:11:06 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:11:21 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:11:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:11:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:11:51 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:12:06 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:12:21 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:12:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:12:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:12:51 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:13:06 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:13:21 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:13:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:13:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:13:51 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:14:06 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:14:21 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:14:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:14:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:14:51 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:15:06 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:15:21 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:15:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:15:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:15:51 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:16:06 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:16:21 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:16:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:16:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:16:51 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:17:06 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:17:21 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:17:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:17:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:17:51 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:18:06 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:18:21 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:18:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:18:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:18:51 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:19:06 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:19:21 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:19:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:19:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:19:51 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:20:06 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:20:21 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:20:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:20:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:20:51 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:21:06 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:21:21 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:21:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:21:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:21:51 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:22:07 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:22:22 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:22:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:22:37 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:22:52 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:23:07 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:23:22 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:23:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:23:37 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:23:52 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:24:07 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:24:22 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:24:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:24:37 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:24:52 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:25:07 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:25:22 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:25:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:25:37 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:25:52 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:26:07 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:26:22 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:26:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:26:37 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:26:52 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:27:07 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:27:22 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:27:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:27:37 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:27:52 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:28:07 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:28:22 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:28:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:28:37 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:28:52 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:29:07 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:29:22 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:29:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:29:37 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:29:52 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:30:07 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:30:22 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:30:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:30:37 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:30:52 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:31:07 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:31:22 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:31:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:31:37 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:31:52 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:32:07 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:32:22 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:32:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:32:37 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:32:52 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:33:07 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:33:22 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:33:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:33:37 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:33:52 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:34:07 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:34:22 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:34:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:34:37 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:34:52 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:35:07 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:35:22 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:35:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:35:37 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:35:52 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:36:07 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:36:22 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:36:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:36:37 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:36:52 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:37:07 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:37:22 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:37:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:37:37 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:37:52 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:38:07 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:38:22 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:38:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:38:37 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:38:52 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:39:07 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:39:22 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:39:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:39:37 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:39:52 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:40:07 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:40:22 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:40:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:40:37 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:40:52 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:41:07 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:41:22 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:41:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:41:37 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:41:52 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:42:07 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:42:22 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:42:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:42:37 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:42:52 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:43:07 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:43:22 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:43:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:43:38 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:43:53 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:44:08 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:44:23 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:44:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:44:38 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:44:53 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:45:08 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:45:23 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:45:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:45:38 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:45:53 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:46:08 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:46:23 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:46:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:46:38 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:46:53 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:47:08 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:47:23 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:47:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:47:38 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:47:53 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:48:08 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:48:23 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:48:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:48:38 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:48:53 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:49:08 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:49:23 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:49:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:49:38 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:49:53 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:50:08 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:50:23 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:50:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:50:38 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:50:53 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:51:08 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:51:23 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:51:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:51:38 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:51:53 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:52:08 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:52:23 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:52:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:52:38 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:52:53 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:53:08 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:53:23 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:53:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:53:38 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:53:53 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:54:08 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:54:23 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:54:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:54:38 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:54:53 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:55:08 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:55:23 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:55:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:55:38 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:55:53 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:56:08 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:56:23 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:56:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:56:38 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:56:53 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:57:08 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:57:23 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:57:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:57:38 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:57:53 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:58:08 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:58:23 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:58:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:58:38 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:58:53 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:59:08 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:59:23 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:59:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:59:38 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 19:59:53 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 20:00:08 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 20:00:23 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 20:00:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 20:00:38 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 20:00:53 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 20:01:08 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 20:01:23 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 20:01:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 20:01:38 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 20:01:53 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 20:02:08 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 20:02:23 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 20:02:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 20:02:38 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 20:02:53 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 20:03:08 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 20:03:23 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 20:03:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 20:03:38 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 20:03:53 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 20:04:08 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 20:04:23 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 20:04:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 20:04:38 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 20:04:53 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 20:05:08 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 20:05:23 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 20:05:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 20:05:38 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 20:05:53 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 20:06:09 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Thu Sep 19 20:06:25 2013] [error] [client 127.0.0.1] File does not exist: /var/www/wordpress/wp-content/uploads
+[Fri Sep 20 00:01:20 2013] [notice] caught SIGTERM, shutting down
+[Fri Sep 20 00:01:56 2013] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Sep 20 00:01:57 2013] [notice] Apache/2.2.18 (Unix) mod_ssl/2.2.18 OpenSSL/1.0.1 DAV/2 PHP/5.5.3 configured -- resuming normal operations
