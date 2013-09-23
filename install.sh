@@ -137,6 +137,10 @@ else
          else
             log "Not touching the old dbs. Please make sure they are are in good condition :)"
          fi
+      else
+         log "No previous mongodb .."
+         log "Creating mysql data dir /var/lib/cruciform/mongodb"
+         mkdir -p /var/lib/cruciform/mongodb
       fi
       log "Putting monodb bin directory into path"
       set_env_var PATH $INSTALL_DIR/lib/mongodb/bin
