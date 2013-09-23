@@ -21,7 +21,7 @@ if [ $machine != "x86_64" ]; then
 fi
 
 # Check to see if the install dir already exists
-if [ ! -d "$INSTALL_DIR" ]; then
+if [ -d "$INSTALL_DIR" ]; then
    log "Install dir already exists" $WARN; 
    log "You should remove the dir($INSTALL_DIR) to begin installation" $ERROR; 
 else
@@ -37,7 +37,7 @@ else
       yes | apt-get install bison libncurses5-dev libtool g++ gcc make cmake libssl-dev libexpat1-dev zlib1g-dev libpng-dev libjpeg-dev libxml2-dev libcurl4-openssl-dev libmcrypt-dev libmhash-dev libxslt-dev libneon27-gnutls-dev libmemcached-dev libxpm-dev vim >/dev/null  2>/dev/null
 
       # Copying bin folder
-      log "Copyiny all the components folder"
+      log "Copying all the components folder"
       cp -r lib "$INSTALL_DIR/lib";
 
       # Copying bin folder
@@ -147,7 +147,7 @@ else
       # Installing memcached
       log "Installing memcached .."
       log "Changing ownership of memcache installation"
-      chown -R root.root "$INSTALL_DIR/lib/memcache"
+      chown -R root.root "$INSTALL_DIR/lib/memcached"
       log "Putting memcached bin directory into path"
       set_env_var PATH $INSTALL_DIR/lib/memcached/bin 
      
