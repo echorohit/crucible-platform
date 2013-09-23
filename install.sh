@@ -33,12 +33,12 @@ else
 
       log "Installing all the dependencies";
       log "This step make use of internet connection and it will take few minutes :)";
-      #apt-get update >/dev/null 2>/dev/null;
-      #yes | apt-get install bison libncurses5-dev libtool g++ gcc make cmake libssl-dev libexpat1-dev zlib1g-dev libpng-dev libjpeg-dev libxml2-dev libcurl4-openssl-dev libmcrypt-dev libmhash-dev libxslt-dev libneon27-gnutls-dev libmemcached-dev libxpm-dev vim >/dev/null  2>/dev/null
+      apt-get update >/dev/null 2>/dev/null;
+      yes | apt-get install bison libncurses5-dev libtool g++ gcc make cmake libssl-dev libexpat1-dev zlib1g-dev libpng-dev libjpeg-dev libxml2-dev libcurl4-openssl-dev libmcrypt-dev libmhash-dev libxslt-dev libneon27-gnutls-dev libmemcached-dev libxpm-dev vim >/dev/null  2>/dev/null
 
       # Copying bin folder
       log "Copyiny all the components folder"
-      #cp -r lib "$INSTALL_DIR/lib";
+      cp -r lib "$INSTALL_DIR/lib";
 
       # Copying bin folder
       log "Copyiny bin folder"
