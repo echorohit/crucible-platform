@@ -27,6 +27,7 @@ $var_value= trim($argv[2]);
 
 $file_content = trim(file_get_contents(ENV_VAR_FILE)); 
 $entry_rows_arr= explode("\n",$file_content);
+$final_var_value='';
 
 if(count($entry_rows_arr) != 0 && $file_content){
     $is_present = false;
@@ -41,7 +42,8 @@ if(count($entry_rows_arr) != 0 && $file_content){
                 $supplied_part_arr = normalized_path(explode(":", $var_value));
                 #Now check if the value exists as given
                 $combined_arr = array_unique(array_merge($value_part_arr,$supplied_part_arr));
-                $entry_rows_arr[$key] = $var_name . "=" . implode(":",$combined_arr);
+                $final_var_value = implode(":",$combined_arr);
+                $entry_rows_arr[$key] = $var_name . "=" . $final_var_value;
                 $is_present = true;
                 break;
             }            
@@ -51,15 +53,17 @@ if(count($entry_rows_arr) != 0 && $file_content){
         }
     }
     if(!$is_present){
-        $entry_rows_arr[]="$var_name=" . implode(":",array_unique(normalized_path(explode(":", $var_value))));
+        $final_var_value =  implode(":",array_unique(normalized_path(explode(":", $var_value))));
+        $entry_rows_arr[]="$var_name=" . $final_var_value;
     }
     
 }else{
-    $entry_rows_arr[]="$var_name=" . implode(":",array_unique(normalized_path(explode(":", $var_value))));
+    $final_var_value =  implode(":",array_unique(normalized_path(explode(":", $var_value))));
+    $entry_rows_arr[]="$var_name=" . $final_var_value;
 }
 
 $file_txt = implode("\n" , $entry_rows_arr);
 file_put_contents(ENV_VAR_FILE,$file_txt);
-echo $file_txt;
+echo $final_var_value;
 echo "\n";
 
