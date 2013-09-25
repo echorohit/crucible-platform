@@ -196,12 +196,17 @@ else
       log "Changing ownership of init.d and bin scripts and insuring they remain executable"
       chown -R root.root "$INSTALL_DIR/init.d"  "$INSTALL_DIR/bin";
       chmod -R 755 $INSTALL_DIR/init.d $INSTALL_DIR/bin
+      log "Putting bin scripts into path"
+      set_env_var PATH $INSTALL_DIR/bin
+
 
       # Installing all rc.d scripts
       log "Installing all system startup scripts"
       log "Changing ownership of rc.d scripts and insuring they are working"
       chown -R root.root "$INSTALL_DIR/rc.d";
       chmod -R 755 $INSTALL_DIR/rc.d
+
+      
 
       #Installation complete now starting the system for the first time
       #Starting system
